@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "database": "registration",
+            "username": "root",
+            "password": "12345678",
+            "connectionTimeout": 30
+        }
+    ],
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.port": 5502
+  }

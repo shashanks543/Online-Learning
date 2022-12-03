@@ -1,0 +1,83 @@
+.flexbox-container-course{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.flexbox-item{
+    width: 408px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #fd8451, #ffbd6f);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.flexbox-item-1{
+    min-height: 250px;
+    min-width: 630px;
+}
+.flexbox-item-2{
+    min-height: 120px;
+    min-width: 630px;
+}
+.flexbox-item-2:hover{
+    background-color: #d2691e;
+    color: white;
+}
+.flexbox-item-2 a{
+    text-decoration:none;
+    color:black;
+}
+.flexbox-item-2 a:hover{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+.flexbox-item-3{
+    min-height: 120px;
+    min-width: 10px;
+    padding-top: 35px;
+}
+.flexbox-item-3:hover{
+    background-color: #d2691e;
+    color: white;
+}
+.flexbox-item-3 a{
+    text-decoration: none;
+    color:white;
+}
+.flexbox-item-3 a:hover{
+    text-decoration:none;
+    color:blanchedalmond;
+}
+h1{
+    color:#471d00;
+    font-size: 3.0rem;
+}
+h2{
+    color:#471d00;
+    font-size: 2.0rem;
+}
+p{
+    color:rgb(247, 229, 229);
+}
+.button-c{
+    display:inline-block;
+    border: none;
+    background-color: #ffccb3;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 250px;
+}
+.button-c:hover {
+    background-image: linear-gradient(to bottom right, #e71919, #0f1cc7);
+    color: white;
+}
+.button-c a{
+  text-decoration:none;
+  color:black;
+}

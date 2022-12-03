@@ -1,0 +1,30 @@
+h1{
+    color: #ccc;
+    text-shadow: 4px 4px 4px #24262b;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.flexmock{
+    display: flex;
+    margin: 15px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flexmock div{
+    width: 150px;
+    border-radius: 10px;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #ffccb3, #ffbb99);
+}
+.flexmock-item-1{
+    min-height: 50px;
+    min-width: 30%;
+}
+h2{
+    color: #471d00;
+}
+.download{
+    padding-top: 0px;
+    color: #ff751a;
+}
